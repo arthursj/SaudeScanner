@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 Como executar
 
-Clone o projeto e acesse a pasta do mesmo.
+Clone o projeto e acesse a pasta e instale as dependências.
 
 ```bash
 $ git clone https://github.com/arthursj/SaudeScanner.git
@@ -73,7 +73,7 @@ This project was developed with the following technologies:
 
 ## 🚀 How to run
 
-Clone the project and access its folder.
+Clone the project and access the folder and install the dependencies.
 
 ```bash
 $ git clone https://github.com/arthursj/SaudeScanner.git
