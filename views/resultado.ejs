@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="<%= categoria === 'Menos Saudável' ? 'menos-saudavel' : categoria === 'Saudável' ? 'saudavel' : '' %>">
+    <div class="container">
+        <h1>Resultado</h1>
+        <h2><%= categoria %></h2>
+        <p><%= mensagem %></p>
+        <ul>
+            <% dicas.forEach(dica => { %>
+                <li><%= dica %></li>
+            <% }) %>
+        </ul>
+    </div>
+</body>
+</html>
+
+<script>
+    setTimeout(() => {
+        window.location.href = "/";
+    }, 7000); // Redireciona após 7 segundos
+</script>

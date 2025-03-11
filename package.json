@@ -1,0 +1,24 @@
+{
+  "name": "saudescanner",
+  "version": "1.0.0",
+  "description": "Um \"scanner\" rápido do seu estilo de vida",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthursj/SaudeScanner.git"
+  },
+  "author": "Arthur Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthursj/SaudeScanner/issues"
+  },
+  "homepage": "https://github.com/arthursj/SaudeScanner#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "saudescanner": "file:"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Questionário de Saúde</h1>
+        <form action="/responder" method="POST">
+            <p><%= pergunta.texto %></p>
+            <% pergunta.opcoes.forEach((opcao, index) => { %>
+                <label>
+                    <input type="radio" name="resposta" value="<%= index %>" required> <%= opcao %>
+                </label>
+            <% }) %>
+            <input type="hidden" name="id" value="<%= pergunta.id %>">
+            <button type="submit">Próximo</button>
+        </form>
+    </div>
+</body>
+</html>
+
