@@ -41,12 +41,13 @@ Clone o projeto e acesse a pasta do mesmo.
 ```bash
 $ git clone https://github.com/arthursj/SaudeScanner.git
 $ cd SaudeScanner
+$ npm install
 ```
 
 Para iniciá-lo, siga o passo abaixo:
 ```bash
 # Inicie o projeto
-$ npx lite-server
+$ npm start
 ```
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
@@ -77,6 +78,7 @@ Clone the project and access its folder.
 ```bash
 $ git clone https://github.com/arthursj/SaudeScanner.git
 $ cd SaudeScanner
+$ npm install
 ```
 
 To start it, follow the step below:
